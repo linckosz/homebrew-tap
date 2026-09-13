@@ -1,7 +1,7 @@
 # ===========================================================================
 #  MoonlightWeb — Homebrew cask (TEMPLATE, not a valid cask as it stands).
 #
-#  0.2.4 / e96fba073475ca956a52e6f38ccd67564993c5f814cb74ec3eddaf3f9254887c are substituted by the `homebrew` job in
+#  0.3.0 / 5420c3032c41841517a24e7d98de04ebd1cbc5b9208ddbf46bc4b7b7764af69e are substituted by the `homebrew` job in
 #  .github/workflows/release.yml, which then pushes the result to
 #  linckosz/homebrew-tap as Casks/moonlightweb.rb. Nothing here is used at
 #  build time; edit this file, not the copy in the tap.
@@ -20,8 +20,8 @@
 #  ("notability"). A personal tap needs no approval and installs identically.
 # ===========================================================================
 cask "moonlightweb" do
-  version "0.2.4"
-  sha256 "e96fba073475ca956a52e6f38ccd67564993c5f814cb74ec3eddaf3f9254887c"
+  version "0.3.0"
+  sha256 "5420c3032c41841517a24e7d98de04ebd1cbc5b9208ddbf46bc4b7b7764af69e"
 
   # `verified:` is required whenever the download host differs from homepage.
   url "https://github.com/linckosz/moonlight-web/releases/download/v#{version}/moonlightweb-#{version}-macos-arm64.pkg",
