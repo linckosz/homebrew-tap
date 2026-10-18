@@ -1,7 +1,7 @@
 # ===========================================================================
 #  MoonlightWeb — Homebrew cask (TEMPLATE, not a valid cask as it stands).
 #
-#  0.3.1 / 3fd23cf30a299a4833a85423301934bed9c34f04846f4fc788662e1861ee4046 are substituted by the `homebrew` job in
+#  0.4.0 / d8457573eeb8365faa7ef565af0acac7572a71616131e28da1fdfb0aa5f94cae are substituted by the `homebrew` job in
 #  .github/workflows/release.yml, which then pushes the result to
 #  linckosz/homebrew-tap as Casks/moonlightweb.rb. Nothing here is used at
 #  build time; edit this file, not the copy in the tap.
@@ -20,14 +20,14 @@
 #  ("notability"). A personal tap needs no approval and installs identically.
 # ===========================================================================
 cask "moonlightweb" do
-  version "0.3.1"
-  sha256 "3fd23cf30a299a4833a85423301934bed9c34f04846f4fc788662e1861ee4046"
+  version "0.4.0"
+  sha256 "d8457573eeb8365faa7ef565af0acac7572a71616131e28da1fdfb0aa5f94cae"
 
   # `verified:` is required whenever the download host differs from homepage.
   url "https://github.com/linckosz/moonlight-web/releases/download/v#{version}/moonlightweb-#{version}-macos-arm64.pkg",
       verified: "github.com/linckosz/moonlight-web/"
   name "MoonlightWeb"
-  desc "Stream your Sunshine games to any device with a browser"
+  desc "Stream your gaming PC to any device with a browser"
   homepage "https://moonlightweb.top/"
 
   livecheck do
